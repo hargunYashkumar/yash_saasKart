@@ -1,3 +1,3 @@
 # yash_saasKart
 workspace
-"Key_24 is the sorted and structured JSON file. There are still a few ambiguities, but it's easy to identify the fields and their structure. structured_example is the JSON file containing the structured data. Additionally, Convert_ListOfDict is the code that was used to sort, structure, and find the unique fields in the nested list of dictionaries."
+"Key5.json is the final output. There are still a few ambiguities,in KEY_23 file but it's easy to identify the fields and their structure, in KEY_23 file the all the first level list of dictionaries are converted to only nested dctionaries with unique values and list. structured_data_example is the JSON file containing the structured data. Additionally, final_main is the code that was used to find the unique fields in the nested list of dictionaries."
