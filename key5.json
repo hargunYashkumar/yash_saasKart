@@ -1,0 +1,1036 @@
+{
+    "id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a116cf69702d3ec0c90400"
+        ]
+    },
+    "name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "A1 Transfer Moving & Storage."
+        ]
+    },
+    "data.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a116cf69702d3ec0c90400"
+        ]
+    },
+    "data.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "A1 Transfer Moving & Storage."
+        ]
+    },
+    "data.alumni.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "631b36392dc51c000141d7f2",
+            "5f907927ea01500001912c1d",
+            "6193c739e654e800018da660",
+            "6230288c58077b00015375a6",
+            "Too many values"
+        ]
+    },
+    "data.alumni.last_name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Barnes",
+            "Fowler",
+            "Eneme",
+            "Breach",
+            "Too many values"
+        ]
+    },
+    "data.alumni.first_name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Aashish",
+            "Hueseyin",
+            "Mark",
+            "Hillary",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "VP, Accounting & Finance",
+            "Volunteer Coordinator",
+            "Lead Engineer - Renewable Energy Project Lead",
+            "Member of the Committee on the Elimination of Racial Discrimination (CERD)",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.company.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "6548b3d49353de000178aa3a",
+            "54a138db69702d24d37f1900",
+            "5e57413d6e3fe30001285897",
+            "5cfb2f1ad13db0097d319dd6",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.company.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Hill International, Inc.",
+            "Cansortium Inc.",
+            "Pinnacle Entertainment Group LLC",
+            "Tyonek Native Corp",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.current": {
+        "types": [
+            "bool"
+        ],
+        "nullable": false,
+        "examples": [
+            false,
+            true
+        ]
+    },
+    "data.alumni.employment_history.end_date": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "2013-02-01T00:00:00.000Z",
+            "2000-08-01T00:00:00.000Z",
+            "2014-04-01T00:00:00.000Z",
+            "2001-02-01T00:00:00.000Z",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.start_date": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "2000-08-01T00:00:00.000Z",
+            "2013-02-01T00:00:00.000Z",
+            "2014-04-01T00:00:00.000Z",
+            "2001-02-01T00:00:00.000Z",
+            "Too many values"
+        ]
+    },
+    "data.alumni.employment_history.organization_id": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "5cfb2f1ad13db0097d319dd6",
+            "54a1b45c74686949e76bb309",
+            "6048b72ecfc8ce0001cfed22",
+            "631691653807e4000132bfa0",
+            "Too many values"
+        ]
+    },
+    "data.people.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54aa95f97468690377d3c80c",
+            "54a4a74a7468693676cc4558",
+            "63d8ed4056872800018a613d",
+            "66f78433a9d69c0001bc6959",
+            "Too many values"
+        ]
+    },
+    "data.people.last_name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Blackburn",
+            "Mohamed",
+            "Zaga",
+            "Haokip",
+            "Too many values"
+        ]
+    },
+    "data.people.first_name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Eddie",
+            "Turit",
+            "Shayla",
+            "Mohamed",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "Accounts Payable Supervisor",
+            "Director of Industry Affairs",
+            "Line Cook",
+            "Kontorschef Kung\u00e4lv/Ale/Stenugsund",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.company.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a116d269702d3ec04f0900",
+            "556d6d13736964122f500a01",
+            "62ce7d0e694ed600018039c4",
+            "54a138a569702d231f5c0700",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.company.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Amarillo Screen Graphics",
+            "XTRA Airways",
+            "Jio Institute",
+            "AMCEEBEE Group",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.current": {
+        "types": [
+            "bool"
+        ],
+        "nullable": false,
+        "examples": [
+            false,
+            true
+        ]
+    },
+    "data.people.employment_history.end_date": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "2013-02-01T00:00:00.000Z",
+            "2014-04-01T00:00:00.000Z",
+            "2001-02-01T00:00:00.000Z",
+            "1999-02-01T00:00:00.000Z",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.start_date": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "2013-02-01T00:00:00.000Z",
+            "2000-08-01T00:00:00.000Z",
+            "2014-04-01T00:00:00.000Z",
+            "1999-02-01T00:00:00.000Z",
+            "Too many values"
+        ]
+    },
+    "data.people.employment_history.organization_id": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "54a11fbe69702d7fe6e21402",
+            "5ccb2e0a9522740b246a67d3",
+            "54a116d269702d3ec04f0900",
+            "54a1399369702d2d7fb16200",
+            "Too many values"
+        ]
+    },
+    "data.revenue": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "22.6M"
+        ]
+    },
+    "data.keywords": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "airline pilot career counseling",
+            "smart grid services",
+            "publishing",
+            "portfolio selection",
+            "Too many values"
+        ]
+    },
+    "data.location.city": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "San Francisco"
+        ]
+    },
+    "data.location.state": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "California"
+        ]
+    },
+    "data.location.country": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "United States"
+        ]
+    },
+    "data.location.postal_code": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "94124-3218"
+        ]
+    },
+    "data.location.street_address": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "1588 Carroll Ave"
+        ]
+    },
+    "data.logo_url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/63edac0a998f12000100b12d/picture"
+        ]
+    },
+    "data.is_public": {
+        "types": [
+            "bool"
+        ],
+        "nullable": false,
+        "examples": [
+            false
+        ]
+    },
+    "data.industries": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "internet",
+            "fine art",
+            "publishing",
+            "writing & editing",
+            "Too many values"
+        ]
+    },
+    "data.website_url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "http://www.a1transfer.com"
+        ]
+    },
+    "data.last_updated": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "2024-10-08T08:38:39.427+00:00"
+        ]
+    },
+    "data.phone_number": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "+1 415-822-3900"
+        ]
+    },
+    "data.social_links.blog_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.twitter_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.youtube_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.facebook_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.linkedin_url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "http://www.linkedin.com/company/a1-transfer-moving-&-storage."
+        ]
+    },
+    "data.social_links.angellist_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.instagram_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.social_links.crunchbase_url": {
+        "types": [],
+        "nullable": true,
+        "examples": [
+            null
+        ]
+    },
+    "data.technologies.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Yandex Metrica",
+            "Google Analytics",
+            "Basis",
+            "CSC Corporate Domains",
+            "Too many values"
+        ]
+    },
+    "data.technologies.category": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Customer Reviews",
+            "CSS and JavaScript Libraries",
+            "Retargeting",
+            "Analytics and Tracking",
+            "Too many values"
+        ]
+    },
+    "data.employee_count": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            1
+        ]
+    },
+    "data.employee_metrics.start_date": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "2024-04-01",
+            "2023-01-01",
+            "2023-09-01",
+            "2022-12-01",
+            "Too many values"
+        ]
+    },
+    "data.employee_metrics.departments.new": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0,
+            1,
+            2,
+            3,
+            "Too many values"
+        ]
+    },
+    "data.employee_metrics.departments.churned": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0,
+            1,
+            2,
+            3,
+            "Too many values"
+        ]
+    },
+    "data.employee_metrics.departments.retained": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0,
+            1,
+            2,
+            3,
+            "Too many values"
+        ]
+    },
+    "data.employee_metrics.departments.functions": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "accounting",
+            "information_technology",
+            "support",
+            "media_and_commmunication",
+            "Too many values"
+        ]
+    },
+    "data.news_items_total": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0
+        ]
+    },
+    "data.job_posting_totals": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0
+        ]
+    },
+    "data.technologies_total": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            14
+        ]
+    },
+    "data.retail_location_count": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            1
+        ]
+    },
+    "data.employee_contacts_total": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            2
+        ]
+    },
+    "data.employee_email_addresses_total": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            2
+        ]
+    },
+    "data.founded_at": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "1984"
+        ]
+    },
+    "data.description": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "AMCEEBEE Group was founded in the year 1984 by Mr. Moolchand Bothra. The group started with Carpet Export business. In the year 1996 we ventured in to Realty business by starting the construction of a 1,00,000 sqft building in Varanasi.  The project was completed in 24 months and is one of the prominent properties of Varanasi.In the year 1998 his son Mr. Yash Bothra joined the business. He is the man behind the idea of venturing into Retail business. A robust future ahead\u2026.. A multi faceted corporate, with whole-hearted approach, dedication and acumen, these reflected in its being progressive and attributing to value addition. The group is managed by a well-knit team of professionals with proven expertise in their respective fields. We plan to open more than 100 Stores up to March 2012 in North India."
+        ]
+    },
+    "data.org_chart_data.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Mike Abla"
+        ]
+    },
+    "data.org_chart_data.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "CEO"
+        ]
+    },
+    "data.org_chart_data.reportees.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Edson Marquez",
+            "Rebecca Lynn",
+            "Marco Bachmann",
+            "Kristina",
+            "Too many values"
+        ]
+    },
+    "data.org_chart_data.reportees.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Office Manager",
+            "Director of Operations",
+            "CTO",
+            "Director Desarrollo de Portafolios | Servicio al cliente & Cx",
+            "Too many values"
+        ]
+    },
+    "data.org_chart_data.total_reportees": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0
+        ]
+    },
+    "data.similar_companies.id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a1291b69702dab375b8601",
+            "57c4bdefa6da9836d27e0b4c",
+            "54a1206569702d84c52c3b02",
+            "556de8c1736964109c360400",
+            "Too many values"
+        ]
+    },
+    "data.similar_companies.name": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Crestmont Baptist Church",
+            "O'DONNELL AGENCY",
+            "Vision-Virtuelle",
+            "ActiveMed Integrative Health Center",
+            "Too many values"
+        ]
+    },
+    "data.similar_companies.revenue": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "7.5M",
+            "379.2M",
+            "6M",
+            "17.8M",
+            "Too many values"
+        ]
+    },
+    "data.similar_companies.logo_url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/670f20e55c174800011009f8/picture",
+            "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66e5fa071ca9880001c1f1e8/picture",
+            "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/6705b660ea6e18000175dec9/picture",
+            "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/66de4c28a1c7600001626eb6/picture",
+            "Too many values"
+        ]
+    },
+    "data.similar_companies.industries": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "animation",
+            "building materials",
+            "internet",
+            "legal services",
+            "Too many values"
+        ]
+    },
+    "data.similar_companies.employee_count": {
+        "types": [
+            "int"
+        ],
+        "nullable": false,
+        "examples": [
+            0,
+            1,
+            2,
+            3,
+            "Too many values"
+        ]
+    },
+    "data.news.url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "https://sevis.com/sevis-introduces-trusted-caller-id-to-enable-enterprises-to-get-their-calls-to-customers-answered/",
+            "http://cmfirstgroup.com/cm-evolveit-added-to-the-gsa-schedule-2/",
+            "https://www.perishablenews.com/retailfoodservice/freshrealm-names-amazon-veteran-stacey-wallace-as-chief-supply-chain-officer-further-strengthening-its-end-to-end-platform",
+            "https://www.ctpublic.org/news/2023-10-04/sikorsky-to-lay-off-179-workers-in-connecticut",
+            "Too many values"
+        ]
+    },
+    "data.news.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Opulent Automotive Hospitality Experiences",
+            "Introducing the New InfinX MRO+ Series: Rust-Inhibited Lubricants for Enhanced Equipment Protection",
+            "Folsom Ready Mix Truck Cleaning Awards: Celebrating Excellence in Maintenance with Chemstation",
+            "Rosenthal Names O\u2019Day Vice President Business Development Officer",
+            "Too many values"
+        ]
+    },
+    "data.news.published_at": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "2024-07-09T00:51:15.000Z",
+            "2024-04-24T16:55:47.000Z",
+            "2021-01-04T00:00:00.000Z",
+            "2019-05-20T08:20:40.000Z",
+            "Too many values"
+        ]
+    },
+    "data.news.event_categories": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "leaves",
+            "launches",
+            "promotes",
+            "has_issues_with",
+            "Too many values"
+        ]
+    },
+    "data.news.organization_ids": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a120a669702d7fe65a8902",
+            "54a116d169702d3ec0cf0700",
+            "54a116ce69702d3ec0890100",
+            "5f4a3054e3db980001fea25b",
+            "Too many values"
+        ]
+    },
+    "data.funding_rounds.date": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "April 2015",
+            "June 2008",
+            "June 2014",
+            "March 2016",
+            "Too many values"
+        ]
+    },
+    "data.funding_rounds.type": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "other",
+            "seed",
+            "venture",
+            "series_b",
+            "Too many values"
+        ]
+    },
+    "data.funding_rounds.funding_amount": {
+        "types": [
+            "int"
+        ],
+        "nullable": true,
+        "examples": [
+            1240000000,
+            1080000000,
+            150000000,
+            200000000,
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.url": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "https://www.linkedin.com/jobs/view/reservationist-reservations-agent-at-american-limousines-4045019581?position=5&pageNum=90&refId=EeLTES8k5exSS3l2ixPKYQ%3D%3D&trackingId=Kt7f8Jim1edvCT5EUE9EXQ%3D%3D",
+            "https://www.linkedin.com/jobs/view/nursing-supervisor-long-term-care-geriatric-nursing-2324-%E2%80%93-department-of-public-health-at-san-francisco-department-of-public-health-4043353454?position=3&pageNum=12&refId=AzmVnOUrGzLdwpdHdwGOlA%3D%3D&trackingId=GRvmOV%2BqF89PGasvYrhIBw%3D%3D",
+            "https://ca.linkedin.com/jobs/view/substation-scada-engineer-at-rrc-companies-4031350895?position=9&pageNum=27&refId=FebokWUZLCJO50No4XT6BA%3D%3D&trackingId=P3yeKGMojD9ojT2OWWEIbQ%3D%3D",
+            "https://www.linkedin.com/jobs/view/account-manager-at-chg-healthcare-4047221003?position=8&pageNum=65&refId=IiG0Dt66itZMMQlws6QELA%3D%3D&trackingId=BFMsMB7pynyNJ9MFlPWzVA%3D%3D",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.city": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "Toronto",
+            "Oakland",
+            "Melbourne",
+            "Tampa",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.state": {
+        "types": [
+            "str"
+        ],
+        "nullable": true,
+        "examples": [
+            "Texas",
+            "Ontario",
+            "New Mexico",
+            "South Carolina",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.title": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "ETL Developer (Bangkok Based, Relocation Provided)",
+            "Territory Manager - Los Angeles West, CA",
+            "Construction Inspectors (Bridge Repair Project - NYC)",
+            "Graduate Civil Engineer",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.country": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "Australia",
+            "Israel",
+            "Canada",
+            "United States",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.posted_at": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "2024-09-20T11:30:24.641Z",
+            "2024-09-18T16:40:06.669Z",
+            "2024-09-21T01:01:52.742Z",
+            "2024-10-10T14:55:44.587Z",
+            "Too many values"
+        ]
+    },
+    "data.job_posting_urls.organization_id": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "54a116d169702d3ec0cf0700",
+            "54a116d269702d3ec0fb0900",
+            "54a116d169702d3ec0b70700",
+            "54a116d269702d3ec0b90800",
+            "Too many values"
+        ]
+    },
+    "data.total_funding_amount": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "1.7M"
+        ]
+    },
+    "data.latest_funding_amount": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "1.7M"
+        ]
+    },
+    "data.publicly_traded_symbol": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "FAA"
+        ]
+    },
+    "data.publicly_traded_exchange": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "nyse"
+        ]
+    },
+    "data.market_cap": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "105.0B"
+        ]
+    },
+    "success": {
+        "types": [
+            "bool"
+        ],
+        "nullable": false,
+        "examples": [
+            true
+        ]
+    },
+    "letter": {
+        "types": [
+            "str"
+        ],
+        "nullable": false,
+        "examples": [
+            "a"
+        ]
+    }
+}
